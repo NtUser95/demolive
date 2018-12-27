@@ -5,7 +5,7 @@
     </div>
     <div>
         <span>age</span>
-        <input required type="number" name="age"  value="<?= $model->age ?>" min="0" max="100" placeholder="1-100">
+        <input required type="number" name="age"  value="<?= $model->age ?>" min="1" max="100" placeholder="1-100">
     </div>
     <div>
         <span>Choose city</span>
