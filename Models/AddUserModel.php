@@ -26,7 +26,7 @@ class AddUserModel extends Model
     }
 
     public function processFormData() {
-        if($this->age <= 0 || $this->age >= 100) {
+        if($this->age <= 9 || $this->age >= 100) {
             $this->addError('invalid age');
         } else if(strlen($this->name) < 1 || strlen($this->name) > 99) {
             $this->addError('invalid name');
