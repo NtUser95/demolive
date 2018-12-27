@@ -19,7 +19,7 @@ class AddUserModel extends Model
     private function isValidCity(string $city) : bool
     {
         foreach ($this->getAllCities() as $value) {
-            if($city === $value['id']) return true;
+            if($city === $value['city_id']) return true;
         }
 
         return false;
