@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.div-table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.div-tr{
+    display: table-row;
+}
+
+.div-td{
+    display: table-cell;
+    text-align: center;
+    border: none;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.div-td:not(.no-p){
+    padding: 4px;
+}
+
+.msg-success {
+    background: green;
+}
+
+.msg-warning {
+    background: red;
+}
+
+.msg-notice {
+    background: cornflowerblue;
+}
+
+.msg-body {
+
+}
